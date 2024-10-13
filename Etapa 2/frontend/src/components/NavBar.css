@@ -1,0 +1,28 @@
+.navbar {
+    justify-content: center; /* Centra todos los elementos de la Navbar */
+}
+
+.nav-link {
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff; /* Cambia el color de texto al hacer hover */
+}
+
+.active {
+    border-bottom: 3px solid #007bff; /* Línea activa en la pestaña seleccionada */
+}
+
+.separator {
+    color: white;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.shadow {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
